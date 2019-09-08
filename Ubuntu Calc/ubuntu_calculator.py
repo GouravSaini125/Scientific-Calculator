@@ -45,8 +45,8 @@ class Calc(Tk):
         elif ans == None:
             pass
         else:
-            file = open('history.txt', 'r')
-            file.close()
+#             file = open('history.txt', 'r')
+#             file.close()
             self.destroy()
 
     def history(self):
